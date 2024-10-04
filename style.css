@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(180, 121, 235);
+    padding: 5px 20px;
+    column-gap: 5px;
+}
+.nav-item{
+    color: rgb(5, 1, 8);
+}
+.nav-item-container{
+    display: flex;
+    column-gap: 15px;
+}
+button{
+    background-color: rgb(29, 188, 209);
+    padding: 5px 10px;
+    border: none;
+    color:black
+}
+
+footer{
+    text-align: center;
+    padding: 100px;
+}
