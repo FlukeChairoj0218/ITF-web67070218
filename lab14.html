@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>64070255</title>
+    <link rel="stylesheet" href="lab14.css" >
+    <script src="/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- name -->
+         <a href="https://github.com/OX-TOPIS/itf2"><h1 class="nblod" id="username">Chairoj Tansin 67070218</h1></a>
+
+         <img src="https://th.bing.com/th/id/OIP.6Op7qx0223OCrzBBQhnv2gHaJ3?rs=1&pid=ImgDetMain" alt="" id="imgs">
+         <div class="noti">1</div>
+         <!-- set username -->
+         <div class="set">
+            <h4 >Set the Username</h4>
+            <input type="text" placeholder="Enter Username" id="EnterUsername">
+            <button onclick="setuername()">SET</button>
+         </div>
+
+         <!-- set url profile -->
+         <div class="set">
+            <h4>Set the profile image URL</h4>
+            <input type="text" placeholder="Enter Image URL" id="EnterImageURL">
+            <button onclick="seturl()">SET</button>
+         </div>
+
+         <!-- header -->
+          <h2>Phone Number List</h2>
+          <div class="">
+            <input type="text" placeholder="Name" id="Name">
+            <input type="text" placeholder="Tel" id="Tel" type="tel">
+            <button onclick="mytable()">ADD</button>
+            <button onclick="export_table_to_csv()"  id="exportButton">EXPORT</button>
+          </div>
+
+
+
+          <!-- table -->
+          <table id="customers">
+            <tr>
+              <th>No.</th>
+              <th>Name</th>
+              <th>Phone Number</th>
+            </tr>
+          </table>
+
+        </div>
+</body>
+</html>

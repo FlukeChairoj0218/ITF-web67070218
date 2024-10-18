@@ -1,0 +1,89 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;  /* ทำให้ความสูงของ body เป็น 100% */
+    display: flex;
+    flex-direction: column; /* ใช้ flex-direction ถ้าต้องการ */
+}
+
+.container {
+    flex: 1;  /* ใช้พื้นที่ที่เหลือทั้งหมด */
+    display: flex;
+    align-items: center;    /* จัดให้อยู่กลางในแนวตั้ง */
+    flex-direction: column; /* ใช้ flex-direction ถ้าต้องการ */
+}
+
+img{
+    border-radius: 100%;
+    width: 183px;
+    height: 183px;
+}
+
+.set{
+    display: flex;
+    margin: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+input, button{
+    height: 30px;
+    margin: 10px;
+}
+
+button{
+    background-color: #04AA6D;
+}
+
+.nblod{
+    font-weight: bold;
+}
+
+.noti{
+    position: absolute;
+    background-color: red;
+    top: 210px;
+    right: 865px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color:white;
+}
+
+.nblod:hover{
+    color:blue;
+    cursor: pointer;
+}
+
+
+/* table */
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  button:hover{
+    background-color: #6eecbe;
+    cursor: pointer;
+  }
